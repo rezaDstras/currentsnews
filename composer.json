@@ -1,0 +1,24 @@
+{
+    "name": "ehsandastras/currentsnews",
+    "description": "A package to get news",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ehsan Dastras",
+            "email": "ehsan1372d@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "EhsanDastras\\CurrentsNews\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EhsanDastras\\CurrentsNews\\CurrentsnewsServiceProvider"
+            ]
+        }
+    }
+}
